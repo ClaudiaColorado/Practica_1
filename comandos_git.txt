@@ -1,0 +1,28 @@
+git init  (inicializar el repositorio en el proyecto
+git status ( estado actual del repositorio en la maquina local)
+   staing
+git diff (mostrar las diferencias de los archivos modificados, antes del commit)
+git checkout ( la ruta del archivo o la carpeta de los archivos que van a ser descartados 
+del commit)
+con git status reviso que si quedaron descartados
+
+git add( para adicionar los archivos que seran involucrados en el commit)
+git add . es para adicionar todo lo que esta en el workin area
+git reset para devolver del stagin area
+
+git commit -m "mensaje para el commit"
+git show ( para ver los cambios del commit)
+git rebase ( para debugear)
+git clone url (para clonar un repositorio)
+
+git clone https://github.com/amartinezg/relocation_inventory.git
+
+git checkout -b nombre rama (para crear una rama)
+git branch (para listar las ramas locales)
+git branch -D nombre rama (para eliminar una rama localmente)
+git fetch (para sincronizar con el repositorio con lo que hay en la maquina local pero no hace los cambios)
+git merge (para mergear una rama a otra rama, despues del fetch para traer lo del repositorio en la nube a la maquina local)
+git pull (ejecuta fetch + merge al mismo tiempo)
+git push (cambios de la rama local y enviarlos al repositorio)
+git remote --v (para saber que repositorios estan configurados en la maquina local)
+
