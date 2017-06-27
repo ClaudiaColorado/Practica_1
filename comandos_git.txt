@@ -25,4 +25,5 @@ git merge (para mergear una rama a otra rama, despues del fetch para traer lo de
 git pull (ejecuta fetch + merge al mismo tiempo)
 git push (cambios de la rama local y enviarlos al repositorio)
 git remote --v (para saber que repositorios estan configurados en la maquina local)
-
+??git remote add origin https://github.com/ClaudiaColorado/Practica_1.git
+git push -u origin master
